@@ -1,0 +1,21 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 100 sampler threads and 8 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/FTreeLDA/Jan_27_2016_20.19.51/
+n_iters = 200
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the Fenwich trees ...
+Sampling 200 iterations!
+In thread 27 at iteration 1 ...Time: 31876

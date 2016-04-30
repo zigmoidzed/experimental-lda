@@ -1,0 +1,38 @@
+Running LDA inference using lightLDA
+For dataset pubmed
+For number of iterations 1000
+For number of topics 1000
+Using 16 sampler threads and 4 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = pubmed-0.dat
+Testing file = pubmed-test.dat
+model dir = out/pubmed/lightLDA/Jan_29_2016_18.15.16/
+n_iters = 1000
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 128847
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -9.25504 at time 0
+Sampling 1000 iterations!
+In thread 0 at iteration 1 ...Time: 40747
+In thread 9 at iteration 1 ...Time: 42139
+In thread 1 at iteration 1 ...Time: 42414
+In thread 4 at iteration 1 ...Time: 42546
+In thread 15 at iteration 1 ...Time: 42838
+In thread 2 at iteration 1 ...Time: 43913
+In thread 13 at iteration 1 ...Time: 44101
+In thread 12 at iteration 1 ...Time: 44219
+In thread 8 at iteration 1 ...Time: 44559
+In thread 3 at iteration 1 ...Time: 44612
+In thread 5 at iteration 1 ...Time: 45545
+In thread 10 at iteration 1 ...Time: 45767
+In thread 6 at iteration 1 ...Time: 49302
+In thread 11 at iteration 1 ...Time: 49326
+In thread 7 at iteration 1 ...Time: 50308
+In thread 14 at iteration 1 ...Time: 50748
+Likelihood on held out documents: -9.14935 at time 70906

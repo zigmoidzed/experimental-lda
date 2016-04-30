@@ -1,0 +1,61 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 40 sampler threads and 8 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/FTreeLDA/Jan_28_2016_03.03.02/
+n_iters = 200
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the Fenwich trees ...
+Sampling 200 iterations!
+In thread 2 at iteration 1 ...Time: 44736
+In thread 12 at iteration 1 ...Time: 44745
+In thread 9 at iteration 1 ...Time: 44771
+In thread 11 at iteration 1 ...Time: 44804
+In thread 38 at iteration 1 ...Time: 44760
+In thread 20 at iteration 1 ...Time: 44904
+In thread 7 at iteration 1 ...Time: 44937
+In thread 35 at iteration 1 ...Time: 44811
+In thread 13 at iteration 1 ...Time: 44986
+In thread 23 at iteration 1 ...Time: 45008
+In thread 10 at iteration 1 ...Time: 45024
+In thread 27 at iteration 1 ...Time: 44992
+In thread 29 at iteration 1 ...Time: 44964
+In thread 1 at iteration 1 ...Time: 45052
+In thread 19 at iteration 1 ...Time: 45062
+In thread 0 at iteration 1 ...Time: 45080
+In thread 4 at iteration 1 ...Time: 45081
+In thread 16 at iteration 1 ...Time: 45083
+In thread 25 at iteration 1 ...Time: 45052
+In thread 3 at iteration 1 ...Time: 45132
+In thread 15 at iteration 1 ...Time: 45140
+In thread 34 at iteration 1 ...Time: 45018
+In thread 24 at iteration 1 ...Time: 45200
+In thread 39 at iteration 1 ...Time: 45099
+In thread 22 at iteration 1 ...Time: 45261
+In thread 37 at iteration 1 ...Time: 45134
+In thread 33 at iteration 1 ...Time: 45156
+In thread 14 at iteration 1 ...Time: 45296
+In thread 30 at iteration 1 ...Time: 45226
+In thread 8 at iteration 1 ...Time: 45309
+In thread 5 at iteration 1 ...Time: 45401
+In thread 36 at iteration 1 ...Time: 45296
+In thread 26 at iteration 1 ...Time: 45394
+In thread 18 at iteration 1 ...Time: 45443
+In thread 17 at iteration 1 ...Time: 45483
+In thread 32 at iteration 1 ...Time: 45365
+In thread 28 at iteration 1 ...Time: 45444
+In thread 31 at iteration 1 ...Time: 45425
+In thread 21 at iteration 1 ...Time: 45609
+In thread 6 at iteration 1 ...Time: 45774
+Likelihood on held out documents: -9.08 at time 53870

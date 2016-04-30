@@ -1,0 +1,63 @@
+Running LDA inference using lightLDA
+For dataset enron
+For number of iterations 10
+For number of topics 100
+Using 0 sampler threads and 1 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/lightLDA/Jan_28_2016_22.18.38/
+n_iters = 10
+alpha = 0.5
+beta = 0.1
+K = 100
+V = 27996
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -8.45898 at time 0
+Sampling 10 iterations!
+Raise flag 00
+Likelihood on held out documents: -8.44811 at time 324
+In thread 2 at iteration 1 ...Time: 703
+In thread 3 at iteration 1 ...Time: 703
+In thread 1 at iteration 1 ...Time: 732
+In thread 0 at iteration 1 ...Time: 737
+In thread 2 at iteration 2 ...Time: 610
+In thread 3 at iteration 2 ...Time: 611
+In thread 1 at iteration 2 ...Time: 645
+In thread 0 at iteration 2 ...Time: 646
+In thread 2 at iteration 3 ...Time: 660
+In thread 3 at iteration 3 ...Time: 676
+In thread 3 at iteration 4 ...Time: 1011
+In thread 1 at iteration 3 ...Time: 1837
+In thread 2 at iteration 4 ...Time: 1503
+In thread 3 at iteration 5 ...Time: 985
+In thread 1 at iteration 4 ...Time: 1022
+In thread 2 at iteration 5 ...Time: 1035
+In thread 3 at iteration 6 ...Time: 1079
+In thread 0 at iteration 3 ...Time: 4005
+In thread 1 at iteration 5 ...Time: 1164
+In thread 2 at iteration 6 ...Time: 1313
+In thread 3 at iteration 7 ...Time: 997
+In thread 1 at iteration 6 ...Time: 960
+In thread 3 at iteration 8 ...Time: 996
+In thread 1 at iteration 7 ...Time: 911
+In thread 2 at iteration 7 ...Time: 1523
+In thread 3 at iteration 9 ...Time: 1009
+In thread 1 at iteration 8 ...Time: 1045
+In thread 2 at iteration 8 ...Time: 1003
+In thread 3 at iteration 10 ...Time: 1020
+In thread 2 at iteration 9 ...Time: 993
+In thread 1 at iteration 9 ...Time: 1056
+In thread 0 at iteration 4 ...Time: 4296
+In thread 2 at iteration 10 ...Time: 995
+In thread 1 at iteration 10 ...Time: 1085
+In thread 0 at iteration 5 ...Time: 953
+In thread 0 at iteration 6 ...Time: 742
+In thread 0 at iteration 7 ...Time: 724
+In thread 0 at iteration 8 ...Time: 703
+In thread 0 at iteration 9 ...Time: 696
+In thread 0 at iteration 10 ...Time: 690

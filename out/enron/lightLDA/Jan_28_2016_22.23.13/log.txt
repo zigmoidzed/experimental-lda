@@ -1,0 +1,91 @@
+Running LDA inference using lightLDA
+For dataset enron
+For number of iterations 10
+For number of topics 100
+Using 0 sampler threads and 1 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/lightLDA/Jan_28_2016_22.23.13/
+n_iters = 10
+alpha = 0.5
+beta = 0.1
+K = 100
+V = 27996
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -8.45231 at time 0
+Sampling 10 iterations!
+Likelihood on held out documents: -8.44275 at time 353
+Likelihood on held out documents: -8.43778 at time 590
+In thread 1 at iteration 1 ...Time: 650
+In thread 0 at iteration 1 ...Time: 653
+In thread 3 at iteration 1 ...Time: 721
+In thread 2 at iteration 1 ...Time: 730
+Likelihood on held out documents: -8.43046 at time 818
+Likelihood on held out documents: -8.42902 at time 1044
+Likelihood on held out documents: -8.42751 at time 1274
+In thread 1 at iteration 2 ...Time: 664
+In thread 0 at iteration 2 ...Time: 665
+In thread 3 at iteration 2 ...Time: 635
+In thread 2 at iteration 2 ...Time: 637
+Likelihood on held out documents: -8.41974 at time 1500
+Likelihood on held out documents: -8.42157 at time 1725
+Likelihood on held out documents: -8.42041 at time 2138
+In thread 1 at iteration 3 ...Time: 852
+In thread 0 at iteration 3 ...Time: 862
+In thread 3 at iteration 3 ...Time: 824
+In thread 2 at iteration 3 ...Time: 843
+Likelihood on held out documents: -8.40916 at time 2532
+Likelihood on held out documents: -8.39988 at time 2901
+In thread 3 at iteration 4 ...Time: 761
+In thread 1 at iteration 4 ...Time: 801
+In thread 0 at iteration 4 ...Time: 795
+In thread 2 at iteration 4 ...Time: 935
+Likelihood on held out documents: -8.38319 at time 3264
+In thread 3 at iteration 5 ...Time: 618
+Likelihood on held out documents: -8.3679 at time 3597
+In thread 1 at iteration 5 ...Time: 661
+In thread 0 at iteration 5 ...Time: 668
+Likelihood on held out documents: -8.35007 at time 3975
+In thread 2 at iteration 5 ...Time: 946
+Likelihood on held out documents: -8.32316 at time 4358
+In thread 3 at iteration 6 ...Time: 1037
+In thread 1 at iteration 6 ...Time: 1109
+Likelihood on held out documents: -8.30311 at time 4742
+In thread 0 at iteration 6 ...Time: 1116
+Likelihood on held out documents: -8.28138 at time 5112
+In thread 2 at iteration 6 ...Time: 1060
+Likelihood on held out documents: -8.26103 at time 5486
+In thread 3 at iteration 7 ...Time: 1027
+In thread 1 at iteration 7 ...Time: 1083
+In thread 0 at iteration 7 ...Time: 1091
+Likelihood on held out documents: -8.24263 at time 5857
+In thread 2 at iteration 7 ...Time: 1032
+Likelihood on held out documents: -8.22489 at time 6214
+Likelihood on held out documents: -8.18803 at time 6578
+In thread 3 at iteration 8 ...Time: 1001
+In thread 1 at iteration 8 ...Time: 1053
+In thread 0 at iteration 8 ...Time: 1065
+Likelihood on held out documents: -8.17033 at time 6936
+In thread 2 at iteration 8 ...Time: 1001
+Likelihood on held out documents: -8.14585 at time 7279
+In thread 3 at iteration 9 ...Time: 969
+Likelihood on held out documents: -8.12183 at time 7644
+In thread 1 at iteration 9 ...Time: 1044
+In thread 0 at iteration 9 ...Time: 1053
+Likelihood on held out documents: -8.10277 at time 8140
+In thread 2 at iteration 9 ...Time: 1292
+Likelihood on held out documents: -8.08504 at time 8573
+In thread 3 at iteration 10 ...Time: 1044
+Likelihood on held out documents: -8.07054 at time 8878
+In thread 1 at iteration 10 ...Time: 1050
+In thread 0 at iteration 10 ...Time: 1031
+00Likelihood on held out documents: -8.06767 at time 9109
+Likelihood on held out documents: -8.06404 at time 9307
+In thread 2 at iteration 10 ...Time: 898
+00Raise flag 00
+Likelihood on held out documents: -8.06498 at time 9474

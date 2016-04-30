@@ -6,8 +6,8 @@ class spvector
 protected:    
     struct sp_container
     {
-	unsigned short idx;  //array containing the id
-	unsigned val;        //alias of i
+	unsigned short idx;
+	unsigned val;
 
 	sp_container() 
 	{   }
@@ -110,11 +110,6 @@ public:
 	}
     }
 
-    // The c++ shrink to fit is exactly this -- totally empty
-    //public void shrink_to_fit() {
-    //    
-    //}
-
     /*** Iterator access ***/
 
     inline sp_container* begin()
@@ -147,7 +142,6 @@ public:
 
     unsigned at(unsigned short idx)
     {
-	//costly typically avoid
 	unsigned result = 0;
 	for (unsigned i = 0; i<_size; ++i)
         {
@@ -229,12 +223,9 @@ public:
 
     inline unsigned short erase_pos(unsigned short pos)
     {
-        //if (0 <= pos && pos < _size) {
         _size--;
 	_data[pos] = _data[_size];
 	return _data[pos].idx;
-	//}
-	//return false;
     }
 
     void clear_to_capacity(unsigned short cap)
@@ -251,35 +242,21 @@ public:
     void clear()
     {
 	_size = 0;
-	//for (short i = 0; i < _capacity; ++i) {
-	//Arrays.fill(_idx, (short)0);
-	//Arrays.fill(_val, (byte)0);
-	//}
     }
 
     inline unsigned increment(unsigned short pos)
     {
-	//if (0 <= pos && pos < _size) {
 	return ++_data[pos].val;
-	//_val[pos] = csuros::increment(_val[pos], r);
-	//}
-	//else {
-    	//	throw new Error("Invalid position");
-	//}
     }
 
     inline unsigned decrement(unsigned short pos)
     {
-	//if (0 <= pos && pos < _size) {
 	return --_data[pos].val;
-	//	}
     }
 
     inline void update(unsigned short pos, unsigned val)
     {
-	//if (0 <= pos && pos < _size) {
 	_data[pos].val = val;
-	//}
     }
 };
 

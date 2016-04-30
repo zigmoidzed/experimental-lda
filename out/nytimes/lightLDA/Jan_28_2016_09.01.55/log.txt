@@ -1,0 +1,7 @@
+Running LDA inference using lightLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1024
+Using 24 sampler threads and 8 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training

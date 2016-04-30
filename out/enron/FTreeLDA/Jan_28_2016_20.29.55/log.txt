@@ -1,0 +1,324 @@
+Running LDA inference using FTreeLDA
+For dataset enron
+For number of iterations 10
+For number of topics 100
+Using 1 sampler threads and 1 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/FTreeLDA/Jan_28_2016_20.29.55/
+n_iters = 10
+alpha = 0.5
+beta = 0.1
+K = 100
+V = 27996
+Initialising data structures
+Initializing the Fenwich trees ...
+Likelihood on held out documents: -8.46619 at time 0
+Sampling 10 iterations!
+Likelihood on held out documents: -8.45143 at time 155
+Likelihood on held out documents: -8.44981 at time 341
+Likelihood on held out documents: -8.44147 at time 505
+Likelihood on held out documents: -8.42504 at time 668
+Likelihood on held out documents: -8.425 at time 830
+Likelihood on held out documents: -8.41838 at time 994
+Likelihood on held out documents: -8.41146 at time 1155
+Likelihood on held out documents: -8.40959 at time 1322
+Likelihood on held out documents: -8.40914 at time 1483
+Likelihood on held out documents: -8.41358 at time 1649
+Likelihood on held out documents: -8.41099 at time 1808
+Likelihood on held out documents: -8.41133 at time 1971
+Likelihood on held out documents: -8.41438 at time 2131
+Likelihood on held out documents: -8.4139 at time 2313
+Likelihood on held out documents: -8.40882 at time 2551
+Likelihood on held out documents: -8.40956 at time 2742
+Likelihood on held out documents: -8.40966 at time 2949
+Likelihood on held out documents: -8.40792 at time 3144
+Likelihood on held out documents: -8.40598 at time 3356
+Likelihood on held out documents: -8.41131 at time 3591
+Likelihood on held out documents: -8.4116 at time 3848
+Likelihood on held out documents: -8.4133 at time 4123
+Likelihood on held out documents: -8.41423 at time 4309
+Likelihood on held out documents: -8.41252 at time 4507
+In thread 0 at iteration 1 ...Time: 4643
+Likelihood on held out documents: -8.41444 at time 4701
+Likelihood on held out documents: -8.41397 at time 4905
+Likelihood on held out documents: -8.41614 at time 5103
+Likelihood on held out documents: -8.41435 at time 5269
+Likelihood on held out documents: -8.41449 at time 5429
+Likelihood on held out documents: -8.41687 at time 5592
+Likelihood on held out documents: -8.41765 at time 5750
+Likelihood on held out documents: -8.41557 at time 5911
+Likelihood on held out documents: -8.41782 at time 6069
+Likelihood on held out documents: -8.42151 at time 6230
+Likelihood on held out documents: -8.41655 at time 6389
+Likelihood on held out documents: -8.41429 at time 6551
+Likelihood on held out documents: -8.41682 at time 6710
+Likelihood on held out documents: -8.4171 at time 6874
+Likelihood on held out documents: -8.41228 at time 7048
+Likelihood on held out documents: -8.41365 at time 7217
+Likelihood on held out documents: -8.41875 at time 7385
+Likelihood on held out documents: -8.41549 at time 7549
+Likelihood on held out documents: -8.41511 at time 7707
+Likelihood on held out documents: -8.41138 at time 7870
+Likelihood on held out documents: -8.41624 at time 8028
+Likelihood on held out documents: -8.41539 at time 8191
+Likelihood on held out documents: -8.41171 at time 8350
+Likelihood on held out documents: -8.41184 at time 8514
+Likelihood on held out documents: -8.41339 at time 8673
+Likelihood on held out documents: -8.41582 at time 8839
+Likelihood on held out documents: -8.41173 at time 9003
+Likelihood on held out documents: -8.417 at time 9165
+Likelihood on held out documents: -8.41732 at time 9332
+Likelihood on held out documents: -8.40771 at time 9628
+Likelihood on held out documents: -8.4123 at time 9876
+Likelihood on held out documents: -8.41304 at time 10140
+Likelihood on held out documents: -8.41506 at time 10310
+Likelihood on held out documents: -8.40989 at time 10555
+Likelihood on held out documents: -8.41133 at time 10714
+Likelihood on held out documents: -8.40832 at time 10877
+Likelihood on held out documents: -8.41121 at time 11036
+Likelihood on held out documents: -8.41015 at time 11209
+Likelihood on held out documents: -8.4097 at time 11376
+Likelihood on held out documents: -8.40711 at time 11538
+In thread 0 at iteration 2 ...Time: 7010
+Likelihood on held out documents: -8.40917 at time 11709
+Likelihood on held out documents: -8.40556 at time 11873
+Likelihood on held out documents: -8.40934 at time 12045
+Likelihood on held out documents: -8.40515 at time 12204
+Likelihood on held out documents: -8.40809 at time 12366
+Likelihood on held out documents: -8.40715 at time 12524
+Likelihood on held out documents: -8.40664 at time 12697
+Likelihood on held out documents: -8.40279 at time 12862
+Likelihood on held out documents: -8.40776 at time 13026
+Likelihood on held out documents: -8.40997 at time 13188
+Likelihood on held out documents: -8.4053 at time 13352
+Likelihood on held out documents: -8.40319 at time 13510
+Likelihood on held out documents: -8.40636 at time 13670
+Likelihood on held out documents: -8.4093 at time 13828
+Likelihood on held out documents: -8.4068 at time 13989
+Likelihood on held out documents: -8.40528 at time 14163
+Likelihood on held out documents: -8.4028 at time 14329
+Likelihood on held out documents: -8.40523 at time 14494
+Likelihood on held out documents: -8.4079 at time 14652
+Likelihood on held out documents: -8.40764 at time 14817
+Likelihood on held out documents: -8.40455 at time 14977
+Likelihood on held out documents: -8.40793 at time 15137
+Likelihood on held out documents: -8.40873 at time 15295
+Likelihood on held out documents: -8.40697 at time 15458
+Likelihood on held out documents: -8.40664 at time 15616
+Likelihood on held out documents: -8.40464 at time 15777
+Likelihood on held out documents: -8.40691 at time 15937
+Likelihood on held out documents: -8.40486 at time 16100
+Likelihood on held out documents: -8.40227 at time 16259
+Likelihood on held out documents: -8.40414 at time 16429
+Likelihood on held out documents: -8.40517 at time 16599
+Likelihood on held out documents: -8.40303 at time 16763
+Likelihood on held out documents: -8.40553 at time 16923
+Likelihood on held out documents: -8.40835 at time 17092
+Likelihood on held out documents: -8.40639 at time 17251
+Likelihood on held out documents: -8.40895 at time 17413
+Likelihood on held out documents: -8.40894 at time 17575
+Likelihood on held out documents: -8.40756 at time 17738
+Likelihood on held out documents: -8.40955 at time 17898
+Likelihood on held out documents: -8.41063 at time 18063
+Likelihood on held out documents: -8.40849 at time 18226
+Likelihood on held out documents: -8.40974 at time 18397
+Likelihood on held out documents: -8.40773 at time 18560
+Likelihood on held out documents: -8.40426 at time 18736
+Likelihood on held out documents: -8.40514 at time 18914
+Likelihood on held out documents: -8.40749 at time 19089
+Likelihood on held out documents: -8.40512 at time 19253
+Likelihood on held out documents: -8.40635 at time 19425
+Likelihood on held out documents: -8.40446 at time 19590
+Likelihood on held out documents: -8.40258 at time 19777
+Likelihood on held out documents: -8.40853 at time 19989
+Likelihood on held out documents: -8.40729 at time 20241
+Likelihood on held out documents: -8.41051 at time 20418
+Likelihood on held out documents: -8.40913 at time 20627
+Likelihood on held out documents: -8.40556 at time 20798
+Likelihood on held out documents: -8.40624 at time 20968
+In thread 0 at iteration 3 ...Time: 9366
+Likelihood on held out documents: -8.40116 at time 21146
+Likelihood on held out documents: -8.40355 at time 21318
+Likelihood on held out documents: -8.39904 at time 21485
+Likelihood on held out documents: -8.40117 at time 21648
+Likelihood on held out documents: -8.40058 at time 21810
+Likelihood on held out documents: -8.40039 at time 21972
+Likelihood on held out documents: -8.38835 at time 22141
+Likelihood on held out documents: -8.38759 at time 22306
+Likelihood on held out documents: -8.38761 at time 22472
+Likelihood on held out documents: -8.38747 at time 22637
+Likelihood on held out documents: -8.38412 at time 22796
+Likelihood on held out documents: -8.38224 at time 22956
+Likelihood on held out documents: -8.37952 at time 23114
+Likelihood on held out documents: -8.37961 at time 23275
+Likelihood on held out documents: -8.37741 at time 23441
+Likelihood on held out documents: -8.38345 at time 23614
+Likelihood on held out documents: -8.3785 at time 23782
+Likelihood on held out documents: -8.3761 at time 23940
+Likelihood on held out documents: -8.37668 at time 24104
+Likelihood on held out documents: -8.37815 at time 24265
+Likelihood on held out documents: -8.38218 at time 24425
+Likelihood on held out documents: -8.3817 at time 24583
+Likelihood on held out documents: -8.38028 at time 24746
+Likelihood on held out documents: -8.38155 at time 24905
+Likelihood on held out documents: -8.37962 at time 25067
+Likelihood on held out documents: -8.38025 at time 25226
+Likelihood on held out documents: -8.38112 at time 25390
+Likelihood on held out documents: -8.38183 at time 25548
+Likelihood on held out documents: -8.37589 at time 25711
+Likelihood on held out documents: -8.37519 at time 25887
+Likelihood on held out documents: -8.3765 at time 26078
+Likelihood on held out documents: -8.37346 at time 26242
+Likelihood on held out documents: -8.37206 at time 26405
+Likelihood on held out documents: -8.37329 at time 26566
+Likelihood on held out documents: -8.37379 at time 26734
+Likelihood on held out documents: -8.36973 at time 26897
+Likelihood on held out documents: -8.36677 at time 27068
+Likelihood on held out documents: -8.36892 at time 27233
+Likelihood on held out documents: -8.36683 at time 27405
+Likelihood on held out documents: -8.36536 at time 27566
+Likelihood on held out documents: -8.3687 at time 27739
+Likelihood on held out documents: -8.36393 at time 27910
+Likelihood on held out documents: -8.36626 at time 28076
+Likelihood on held out documents: -8.36456 at time 28256
+Likelihood on held out documents: -8.36015 at time 28434
+Likelihood on held out documents: -8.35919 at time 28654
+Likelihood on held out documents: -8.35869 at time 28820
+Likelihood on held out documents: -8.36049 at time 28986
+Likelihood on held out documents: -8.35808 at time 29153
+Likelihood on held out documents: -8.35854 at time 29327
+Likelihood on held out documents: -8.35827 at time 29569
+Likelihood on held out documents: -8.35605 at time 29727
+Likelihood on held out documents: -8.35336 at time 29898
+Likelihood on held out documents: -8.35328 at time 30056
+Likelihood on held out documents: -8.35057 at time 30222
+Likelihood on held out documents: -8.3528 at time 30381
+In thread 0 at iteration 4 ...Time: 9518
+Likelihood on held out documents: -8.3543 at time 30546
+Likelihood on held out documents: -8.34707 at time 30716
+Likelihood on held out documents: -8.34903 at time 30885
+Likelihood on held out documents: -8.34756 at time 31055
+Likelihood on held out documents: -8.34811 at time 31225
+Likelihood on held out documents: -8.33663 at time 31395
+Likelihood on held out documents: -8.33069 at time 31593
+Likelihood on held out documents: -8.32674 at time 31794
+Likelihood on held out documents: -8.32376 at time 31993
+Likelihood on held out documents: -8.31863 at time 32163
+Likelihood on held out documents: -8.31854 at time 32342
+Likelihood on held out documents: -8.3129 at time 32563
+Likelihood on held out documents: -8.31288 at time 32760
+Likelihood on held out documents: -8.30923 at time 32928
+Likelihood on held out documents: -8.30244 at time 33097
+Likelihood on held out documents: -8.30283 at time 33262
+Likelihood on held out documents: -8.29904 at time 33428
+Likelihood on held out documents: -8.30181 at time 33586
+In thread 0 at iteration 5 ...Time: 3067
+Likelihood on held out documents: -8.29918 at time 33746
+Likelihood on held out documents: -8.30052 at time 33904
+Likelihood on held out documents: -8.2975 at time 34066
+Likelihood on held out documents: -8.29454 at time 34233
+Likelihood on held out documents: -8.29776 at time 34396
+Likelihood on held out documents: -8.29977 at time 34554
+Likelihood on held out documents: -8.29447 at time 34717
+Likelihood on held out documents: -8.28698 at time 34893
+Likelihood on held out documents: -8.28886 at time 35062
+Likelihood on held out documents: -8.28586 at time 35231
+Likelihood on held out documents: -8.28393 at time 35401
+Likelihood on held out documents: -8.27631 at time 35570
+Likelihood on held out documents: -8.27627 at time 35732
+Likelihood on held out documents: -8.27905 at time 35890
+Likelihood on held out documents: -8.2761 at time 36059
+Likelihood on held out documents: -8.27182 at time 36218
+Likelihood on held out documents: -8.27414 at time 36382
+Likelihood on held out documents: -8.27009 at time 36541
+Likelihood on held out documents: -8.26969 at time 36705
+Likelihood on held out documents: -8.26682 at time 36864
+Likelihood on held out documents: -8.26244 at time 37036
+Likelihood on held out documents: -8.26487 at time 37210
+Likelihood on held out documents: -8.26219 at time 37374
+Likelihood on held out documents: -8.25376 at time 37564
+Likelihood on held out documents: -8.24507 at time 37861
+Likelihood on held out documents: -8.23174 at time 38103
+Likelihood on held out documents: -8.2212 at time 38347
+Likelihood on held out documents: -8.22338 at time 38506
+Likelihood on held out documents: -8.21602 at time 38668
+Likelihood on held out documents: -8.22193 at time 38835
+Likelihood on held out documents: -8.21598 at time 39001
+Likelihood on held out documents: -8.21379 at time 39160
+Likelihood on held out documents: -8.21575 at time 39323
+Likelihood on held out documents: -8.21304 at time 39481
+In thread 0 at iteration 6 ...Time: 5897
+Likelihood on held out documents: -8.21437 at time 39642
+Likelihood on held out documents: -8.21387 at time 39800
+Likelihood on held out documents: -8.2104 at time 39981
+Likelihood on held out documents: -8.20361 at time 40150
+Likelihood on held out documents: -8.20016 at time 40319
+Likelihood on held out documents: -8.18882 at time 40489
+Likelihood on held out documents: -8.1768 at time 40658
+Likelihood on held out documents: -8.17538 at time 40832
+Likelihood on held out documents: -8.17723 at time 40991
+Likelihood on held out documents: -8.16903 at time 41196
+Likelihood on held out documents: -8.16233 at time 41406
+Likelihood on held out documents: -8.15277 at time 41607
+Likelihood on held out documents: -8.14779 at time 41776
+Likelihood on held out documents: -8.14483 at time 41944
+Likelihood on held out documents: -8.13614 at time 42113
+In thread 0 at iteration 7 ...Time: 2759
+Likelihood on held out documents: -8.12883 at time 42283
+Likelihood on held out documents: -8.12014 at time 42451
+Likelihood on held out documents: -8.12021 at time 42620
+Likelihood on held out documents: -8.11678 at time 42778
+Likelihood on held out documents: -8.11728 at time 42940
+Likelihood on held out documents: -8.11473 at time 43105
+Likelihood on held out documents: -8.11548 at time 43273
+Likelihood on held out documents: -8.11269 at time 43430
+Likelihood on held out documents: -8.11179 at time 43594
+Likelihood on held out documents: -8.10933 at time 43752
+Likelihood on held out documents: -8.10872 at time 43914
+Likelihood on held out documents: -8.10861 at time 44074
+Likelihood on held out documents: -8.10729 at time 44245
+Likelihood on held out documents: -8.10631 at time 44404
+Likelihood on held out documents: -8.10384 at time 44587
+Likelihood on held out documents: -8.09726 at time 44760
+Likelihood on held out documents: -8.09982 at time 44950
+Likelihood on held out documents: -8.09592 at time 45118
+Likelihood on held out documents: -8.08774 at time 45345
+Likelihood on held out documents: -8.08043 at time 45514
+Likelihood on held out documents: -8.07209 at time 45682
+Likelihood on held out documents: -8.06957 at time 45865
+Likelihood on held out documents: -8.06742 at time 46060
+In thread 0 at iteration 8 ...Time: 3950
+Likelihood on held out documents: -8.05968 at time 46230
+Likelihood on held out documents: -8.05478 at time 46398
+Likelihood on held out documents: -8.04936 at time 46567
+Likelihood on held out documents: -8.04208 at time 46736
+Likelihood on held out documents: -8.03902 at time 46906
+Likelihood on held out documents: -8.03215 at time 47074
+Likelihood on held out documents: -8.02897 at time 47242
+Likelihood on held out documents: -8.02628 at time 47410
+Likelihood on held out documents: -8.02273 at time 47623
+Likelihood on held out documents: -8.01536 at time 47834
+Likelihood on held out documents: -8.00755 at time 48049
+Likelihood on held out documents: -8.00803 at time 48209
+Likelihood on held out documents: -8.00714 at time 48387
+In thread 0 at iteration 9 ...Time: 2200
+Likelihood on held out documents: -8.00041 at time 48563
+Likelihood on held out documents: -7.9941 at time 48767
+Likelihood on held out documents: -7.99052 at time 48936
+Likelihood on held out documents: -7.98767 at time 49105
+Likelihood on held out documents: -7.98773 at time 49287
+Likelihood on held out documents: -7.98543 at time 49468
+Likelihood on held out documents: -7.97187 at time 49748
+Likelihood on held out documents: -7.96408 at time 49934
+Likelihood on held out documents: -7.96656 at time 50102
+Likelihood on held out documents: -7.95925 at time 50335
+Likelihood on held out documents: -7.95432 at time 50536
+In thread 0 at iteration 10 ...Time: 2235
+Returning from 0
+0Raise flag 00
+Likelihood on held out documents: -7.9551 at time 50702

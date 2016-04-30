@@ -1,0 +1,6 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 50 sampler threads and 10 updater threads on bros
+Running LDA inference using FTreeLDA

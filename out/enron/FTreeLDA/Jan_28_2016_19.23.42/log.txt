@@ -1,0 +1,19 @@
+Running LDA inference using FTreeLDA
+For dataset enron
+For number of iterations 10
+For number of topics 1000
+Using 1 sampler threads and 1 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/FTreeLDA/Jan_28_2016_19.23.42/
+n_iters = 10
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 27996
+Initialising data structures
+Initializing the Fenwich trees ...

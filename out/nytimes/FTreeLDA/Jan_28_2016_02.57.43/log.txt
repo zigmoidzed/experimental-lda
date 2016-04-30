@@ -1,0 +1,125 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 20 sampler threads and 3 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/FTreeLDA/Jan_28_2016_02.57.43/
+n_iters = 200
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the Fenwich trees ...
+Sampling 200 iterations!
+In thread 8 at iteration 1 ...Time: 47341
+In thread 4 at iteration 1 ...Time: 48064
+In thread 18 at iteration 1 ...Time: 48591
+In thread 6 at iteration 1 ...Time: 49423
+In thread 10 at iteration 1 ...Time: 50406
+In thread 13 at iteration 1 ...Time: 51187
+In thread 17 at iteration 1 ...Time: 51687
+In thread 0 at iteration 1 ...Time: 51708
+In thread 19 at iteration 1 ...Time: 53184
+In thread 12 at iteration 1 ...Time: 53664
+In thread 7 at iteration 1 ...Time: 53947
+In thread 2 at iteration 1 ...Time: 53957
+In thread 16 at iteration 1 ...Time: 54416
+In thread 11 at iteration 1 ...Time: 54616
+In thread 9 at iteration 1 ...Time: 54753
+In thread 15 at iteration 1 ...Time: 54816
+In thread 3 at iteration 1 ...Time: 55182
+In thread 5 at iteration 1 ...Time: 55188
+Likelihood on held out documents: -9.08076 at time 50595
+In thread 14 at iteration 1 ...Time: 55550
+In thread 1 at iteration 1 ...Time: 55962
+In thread 8 at iteration 2 ...Time: 47913
+In thread 4 at iteration 2 ...Time: 49397
+In thread 7 at iteration 2 ...Time: 45832
+In thread 18 at iteration 2 ...Time: 51484
+In thread 13 at iteration 2 ...Time: 49481
+In thread 6 at iteration 2 ...Time: 51392
+In thread 0 at iteration 2 ...Time: 49318
+In thread 10 at iteration 2 ...Time: 54304
+In thread 17 at iteration 2 ...Time: 53497
+In thread 12 at iteration 2 ...Time: 52825
+In thread 2 at iteration 2 ...Time: 53018
+In thread 19 at iteration 2 ...Time: 54119
+In thread 9 at iteration 2 ...Time: 52892
+In thread 15 at iteration 2 ...Time: 53539
+In thread 16 at iteration 2 ...Time: 54299
+Likelihood on held out documents: -9.02122 at time 103965
+In thread 11 at iteration 2 ...Time: 54214
+In thread 5 at iteration 2 ...Time: 54524
+In thread 1 at iteration 2 ...Time: 53897
+In thread 3 at iteration 2 ...Time: 54857
+In thread 14 at iteration 2 ...Time: 55223
+In thread 18 at iteration 3 ...Time: 47727
+In thread 4 at iteration 3 ...Time: 51318
+In thread 8 at iteration 3 ...Time: 56251
+In thread 7 at iteration 3 ...Time: 52844
+In thread 16 at iteration 3 ...Time: 46861
+In thread 13 at iteration 3 ...Time: 55862
+In thread 12 at iteration 3 ...Time: 51515
+In thread 0 at iteration 3 ...Time: 57360
+In thread 6 at iteration 3 ...Time: 57951
+In thread 17 at iteration 3 ...Time: 54624
+In thread 14 at iteration 3 ...Time: 49447
+In thread 19 at iteration 3 ...Time: 53241
+Likelihood on held out documents: -8.97753 at time 157103
+In thread 15 at iteration 3 ...Time: 53622
+In thread 9 at iteration 3 ...Time: 54366
+In thread 3 at iteration 3 ...Time: 51997
+In thread 2 at iteration 3 ...Time: 55381
+In thread 10 at iteration 3 ...Time: 58158
+In thread 1 at iteration 3 ...Time: 53073
+In thread 11 at iteration 3 ...Time: 54121
+In thread 5 at iteration 3 ...Time: 54799
+In thread 4 at iteration 4 ...Time: 49427
+In thread 18 at iteration 4 ...Time: 51385
+In thread 8 at iteration 4 ...Time: 51596
+In thread 7 at iteration 4 ...Time: 51904
+In thread 3 at iteration 4 ...Time: 45321
+In thread 13 at iteration 4 ...Time: 52626
+In thread 17 at iteration 4 ...Time: 50056
+In thread 16 at iteration 4 ...Time: 55051
+In thread 12 at iteration 4 ...Time: 53671
+In thread 19 at iteration 4 ...Time: 52108
+In thread 15 at iteration 4 ...Time: 50850
+In thread 6 at iteration 4 ...Time: 54096
+In thread 9 at iteration 4 ...Time: 51585
+Likelihood on held out documents: -8.91607 at time 209177
+In thread 0 at iteration 4 ...Time: 55752
+In thread 14 at iteration 4 ...Time: 54073
+In thread 2 at iteration 4 ...Time: 52406
+In thread 10 at iteration 4 ...Time: 52121
+In thread 1 at iteration 4 ...Time: 52319
+In thread 11 at iteration 4 ...Time: 53036
+In thread 5 at iteration 4 ...Time: 51717
+In thread 4 at iteration 5 ...Time: 52162
+In thread 18 at iteration 5 ...Time: 51527
+In thread 7 at iteration 5 ...Time: 47543
+In thread 8 at iteration 5 ...Time: 49495
+In thread 3 at iteration 5 ...Time: 49247
+In thread 17 at iteration 5 ...Time: 47988
+In thread 6 at iteration 5 ...Time: 45223
+In thread 19 at iteration 5 ...Time: 45723
+In thread 12 at iteration 5 ...Time: 47100
+In thread 10 at iteration 5 ...Time: 44645
+In thread 5 at iteration 5 ...Time: 43604
+In thread 13 at iteration 5 ...Time: 50899
+In thread 15 at iteration 5 ...Time: 47994
+In thread 11 at iteration 5 ...Time: 46410
+In thread 16 at iteration 5 ...Time: 52638
+In thread 2 at iteration 5 ...Time: 48554
+In thread 14 at iteration 5 ...Time: 49147
+In thread 1 at iteration 5 ...Time: 48951
+Likelihood on held out documents: -8.82114 at time 260374
+In thread 9 at iteration 5 ...Time: 52174
+In thread 0 at iteration 5 ...Time: 51955

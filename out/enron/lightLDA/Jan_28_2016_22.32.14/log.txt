@@ -1,0 +1,69 @@
+Running LDA inference using lightLDA
+For dataset enron
+For number of iterations 10
+For number of topics 100
+Using 0 sampler threads and 1 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/lightLDA/Jan_28_2016_22.32.14/
+n_iters = 10
+alpha = 0.5
+beta = 0.1
+K = 100
+V = 27996
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -8.46098 at time 0
+Sampling 10 iterations!
+In thread 3 at iteration 1 ...Time: 531
+In thread 2 at iteration 1 ...Time: 541
+In thread 1 at iteration 1 ...Time: 552
+In thread 0 at iteration 1 ...Time: 563
+In thread 3 at iteration 2 ...Time: 453
+In thread 2 at iteration 2 ...Time: 455
+In thread 1 at iteration 2 ...Time: 476
+In thread 0 at iteration 2 ...Time: 490
+In thread 3 at iteration 3 ...Time: 487
+In thread 2 at iteration 3 ...Time: 495
+In thread 1 at iteration 3 ...Time: 519
+In thread 0 at iteration 3 ...Time: 560
+In thread 3 at iteration 4 ...Time: 527
+In thread 2 at iteration 4 ...Time: 539
+In thread 1 at iteration 4 ...Time: 512
+In thread 0 at iteration 4 ...Time: 520
+In thread 3 at iteration 5 ...Time: 532
+In thread 1 at iteration 5 ...Time: 516
+In thread 2 at iteration 5 ...Time: 545
+In thread 0 at iteration 5 ...Time: 520
+In thread 3 at iteration 6 ...Time: 530
+In thread 1 at iteration 6 ...Time: 517
+In thread 2 at iteration 6 ...Time: 545
+In thread 0 at iteration 6 ...Time: 526
+In thread 3 at iteration 7 ...Time: 530
+In thread 1 at iteration 7 ...Time: 512
+In thread 2 at iteration 7 ...Time: 546
+In thread 0 at iteration 7 ...Time: 522
+In thread 1 at iteration 8 ...Time: 518
+In thread 3 at iteration 8 ...Time: 534
+In thread 2 at iteration 8 ...Time: 545
+In thread 0 at iteration 8 ...Time: 524
+In thread 1 at iteration 9 ...Time: 514
+In thread 3 at iteration 9 ...Time: 534
+In thread 0 at iteration 9 ...Time: 527
+In thread 2 at iteration 9 ...Time: 546
+In thread 1 at iteration 10 ...Time: 513
+In thread 3 at iteration 10 ...Time: 530
+In thread 0 at iteration 10 ...Time: 512
+00In thread 2 at iteration 10 ...Time: 513
+00Raise flag 00
+0Gibbs sampling completed!
+Saving the final model!
+time done
+llh done
+others done
+phi done
+Likelihood on held out documents: -8.45011 at time 0

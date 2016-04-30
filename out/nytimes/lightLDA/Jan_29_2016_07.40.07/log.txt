@@ -1,0 +1,104 @@
+Running LDA inference using lightLDA
+For dataset nytimes
+For number of iterations 1000
+For number of topics 1000
+Using 24 sampler threads and 4 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/lightLDA/Jan_29_2016_07.40.07/
+n_iters = 1000
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -9.05729 at time 0
+Sampling 1000 iterations!
+In thread 9 at iteration 1 ...Time: 5732
+In thread 16 at iteration 1 ...Time: 5823
+In thread 17 at iteration 1 ...Time: 5824
+In thread 4 at iteration 1 ...Time: 5835
+In thread 1 at iteration 1 ...Time: 5839
+In thread 18 at iteration 1 ...Time: 5914
+In thread 11 at iteration 1 ...Time: 5931
+In thread 5 at iteration 1 ...Time: 5943
+In thread 22 at iteration 1 ...Time: 6062
+In thread 10 at iteration 1 ...Time: 8229
+In thread 13 at iteration 1 ...Time: 9359
+In thread 2 at iteration 1 ...Time: 12853
+In thread 20 at iteration 1 ...Time: 14255
+In thread 14 at iteration 1 ...Time: 14354
+In thread 3 at iteration 1 ...Time: 14364
+In thread 19 at iteration 1 ...Time: 14573
+In thread 12 at iteration 1 ...Time: 14658
+In thread 7 at iteration 1 ...Time: 14677
+In thread 15 at iteration 1 ...Time: 14686
+In thread 6 at iteration 1 ...Time: 14696
+In thread 0 at iteration 1 ...Time: 14798
+In thread 23 at iteration 1 ...Time: 14813
+In thread 21 at iteration 1 ...Time: 14813
+In thread 8 at iteration 1 ...Time: 14832
+000000000000000000000000In thread 8 at iteration 1 ...Time: 5257
+In thread 6 at iteration 1 ...Time: 5516
+In thread 14 at iteration 1 ...Time: 5880
+In thread 3 at iteration 1 ...Time: 5892
+In thread 21 at iteration 1 ...Time: 5898
+In thread 19 at iteration 1 ...Time: 5903
+In thread 17 at iteration 1 ...Time: 5920
+In thread 23 at iteration 1 ...Time: 5920
+In thread 5 at iteration 1 ...Time: 5942
+In thread 13 at iteration 1 ...Time: 8109
+In thread 15 at iteration 1 ...Time: 8940
+In thread 0 at iteration 1 ...Time: 10532
+0In thread 10 at iteration 1 ...Time: 12403
+In thread 16 at iteration 1 ...Time: 12493
+In thread 12 at iteration 1 ...Time: 12547
+In thread 22 at iteration 1 ...Time: 12626
+In thread 2 at iteration 1 ...Time: 12703
+In thread 18 at iteration 1 ...Time: 12739
+In thread 7 at iteration 1 ...Time: 12802
+In thread 9 at iteration 1 ...Time: 12818
+In thread 20 at iteration 1 ...Time: 12862
+In thread 11 at iteration 1 ...Time: 12881
+In thread 4 at iteration 1 ...Time: 12886
+In thread 1 at iteration 1 ...Time: 12998
+00000000000000000000000Likelihood on held out documents: -9.02025 at time 26724
+In thread 10 at iteration 1 ...Time: 5351
+In thread 7 at iteration 1 ...Time: 5632
+In thread 19 at iteration 1 ...Time: 6098
+In thread 3 at iteration 1 ...Time: 6113
+In thread 23 at iteration 1 ...Time: 6149
+In thread 5 at iteration 1 ...Time: 6160
+In thread 11 at iteration 1 ...Time: 6160
+In thread 17 at iteration 1 ...Time: 6172
+In thread 13 at iteration 1 ...Time: 6191
+In thread 18 at iteration 1 ...Time: 6192
+In thread 21 at iteration 1 ...Time: 6199
+In thread 12 at iteration 1 ...Time: 8756
+In thread 16 at iteration 1 ...Time: 10273
+In thread 15 at iteration 1 ...Time: 10466
+In thread 2 at iteration 1 ...Time: 10651
+In thread 0 at iteration 1 ...Time: 11037
+In thread 6 at iteration 1 ...Time: 11050
+0In thread 22 at iteration 1 ...Time: 11290
+In thread 1 at iteration 1 ...Time: 11500
+In thread 4 at iteration 1 ...Time: 11509
+0000000In thread 8 at iteration 1 ...Time: 11590
+In thread 14 at iteration 1 ...Time: 11638
+0In thread 9 at iteration 1 ...Time: 11706
+00000000000In thread 20 at iteration 1 ...Time: 11772
+0000In thread 8 at iteration 1 ...Time: 4980
+In thread 15 at iteration 1 ...Time: 5883
+In thread 17 at iteration 1 ...Time: 6223
+In thread 19 at iteration 1 ...Time: 6237
+In thread 3 at iteration 1 ...Time: 6248
+In thread 23 at iteration 1 ...Time: 6294
+In thread 7 at iteration 1 ...Time: 6302
+In thread 5 at iteration 1 ...Time: 6315
+In thread 10 at iteration 1 ...Time: 6330
+In thread 21 at iteration 1 ...Time: 6368

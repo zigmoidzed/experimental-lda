@@ -1,0 +1,70 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 50 sampler threads and 10 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/FTreeLDA/Jan_28_2016_05.41.36/
+n_iters = 200
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the Fenwich trees ...
+Sampling 200 iterations!
+In thread 39 at iteration 1 ...Time: 8808
+In thread 42 at iteration 1 ...Time: 8826
+In thread 15 at iteration 1 ...Time: 8884
+In thread 30 at iteration 1 ...Time: 8869
+In thread 17 at iteration 1 ...Time: 8893
+In thread 27 at iteration 1 ...Time: 8881
+In thread 19 at iteration 1 ...Time: 8897
+In thread 4 at iteration 1 ...Time: 8912
+In thread 11 at iteration 1 ...Time: 8914
+In thread 22 at iteration 1 ...Time: 8914
+In thread 29 at iteration 1 ...Time: 8927
+In thread 13 at iteration 1 ...Time: 8947
+In thread 38 at iteration 1 ...Time: 8914
+In thread 34 at iteration 1 ...Time: 8931
+In thread 25 at iteration 1 ...Time: 8958
+In thread 10 at iteration 1 ...Time: 8970
+In thread 3 at iteration 1 ...Time: 8976
+In thread 40 at iteration 1 ...Time: 8928
+In thread 1 at iteration 1 ...Time: 8981
+In thread 37 at iteration 1 ...Time: 8943
+In thread 14 at iteration 1 ...Time: 8982
+In thread 5 at iteration 1 ...Time: 8986
+In thread 9 at iteration 1 ...Time: 8987
+In thread 12 at iteration 1 ...Time: 8986
+In thread 24 at iteration 1 ...Time: 8981
+In thread 35 at iteration 1 ...Time: 8958
+In thread 46 at iteration 1 ...Time: 8927
+In thread 2 at iteration 1 ...Time: 8997
+In thread 45 at iteration 1 ...Time: 8938
+In thread 41 at iteration 1 ...Time: 8956
+In thread 26 at iteration 1 ...Time: 9002
+In thread 33 at iteration 1 ...Time: 8986
+In thread 18 at iteration 1 ...Time: 9015
+In thread 32 at iteration 1 ...Time: 8995
+In thread 23 at iteration 1 ...Time: 9016
+In thread 36 at iteration 1 ...Time: 8989
+In thread 8 at iteration 1 ...Time: 9027
+In thread 43 at iteration 1 ...Time: 8979
+In thread 16 at iteration 1 ...Time: 9036
+In thread 31 at iteration 1 ...Time: 9015
+In thread 48 at iteration 1 ...Time: 8974
+In thread 0 at iteration 1 ...Time: 9090
+In thread 28 at iteration 1 ...Time: 9082
+In thread 7 at iteration 1 ...Time: 9111
+In thread 6 at iteration 1 ...Time: 9130
+In thread 44 at iteration 1 ...Time: 9089
+In thread 21 at iteration 1 ...Time: 9145
+In thread 20 at iteration 1 ...Time: 9148
+In thread 49 at iteration 1 ...Time: 9078
+In thread 47 at iteration 1 ...Time: 9207

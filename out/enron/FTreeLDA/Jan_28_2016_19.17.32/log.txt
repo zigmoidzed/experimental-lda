@@ -1,0 +1,5 @@
+Running LDA inference using FTreeLDA
+For dataset enron
+For number of iterations 10
+For number of topics 1000
+Using 1 sampler threads and 1 updater threads on bros

@@ -1,0 +1,92 @@
+Running LDA inference using lightLDA
+For dataset nytimes
+For number of iterations 1000
+For number of topics 1000
+Using 24 sampler threads and 8 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/lightLDA/Jan_28_2016_22.37.57/
+n_iters = 1000
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the alias tables ...
+Sampling 1000 iterations!
+In thread 19 at iteration 1 ...Time: 13843
+In thread 1 at iteration 1 ...Time: 14152
+In thread 4 at iteration 1 ...Time: 14257
+In thread 20 at iteration 1 ...Time: 14257
+In thread 10 at iteration 1 ...Time: 14353
+In thread 8 at iteration 1 ...Time: 14410
+In thread 16 at iteration 1 ...Time: 14410
+In thread 3 at iteration 1 ...Time: 14501
+In thread 15 at iteration 1 ...Time: 14511
+In thread 14 at iteration 1 ...Time: 14543
+In thread 0 at iteration 1 ...Time: 14638
+In thread 6 at iteration 1 ...Time: 14706
+In thread 21 at iteration 1 ...Time: 14872
+In thread 17 at iteration 1 ...Time: 14893
+In thread 23 at iteration 1 ...Time: 14936
+In thread 18 at iteration 1 ...Time: 14958
+In thread 5 at iteration 1 ...Time: 15045
+In thread 22 at iteration 1 ...Time: 15238
+In thread 9 at iteration 1 ...Time: 15392
+In thread 2 at iteration 1 ...Time: 15403
+In thread 13 at iteration 1 ...Time: 15526
+In thread 7 at iteration 1 ...Time: 15873
+In thread 11 at iteration 1 ...Time: 15973
+In thread 12 at iteration 1 ...Time: 16117
+In thread 1 at iteration 2 ...Time: 16243
+In thread 4 at iteration 2 ...Time: 16179
+In thread 19 at iteration 2 ...Time: 16598
+In thread 20 at iteration 2 ...Time: 16741
+In thread 0 at iteration 2 ...Time: 16535
+In thread 3 at iteration 2 ...Time: 16817
+In thread 6 at iteration 2 ...Time: 16628
+In thread 14 at iteration 2 ...Time: 16799
+In thread 23 at iteration 2 ...Time: 16500
+In thread 15 at iteration 2 ...Time: 16970
+In thread 16 at iteration 2 ...Time: 17201
+In thread 10 at iteration 2 ...Time: 17307
+In thread 17 at iteration 2 ...Time: 16893
+In thread 5 at iteration 2 ...Time: 16773
+In thread 21 at iteration 2 ...Time: 16935
+In thread 18 at iteration 2 ...Time: 16899
+In thread 8 at iteration 2 ...Time: 17566
+In thread 7 at iteration 2 ...Time: 16581
+In thread 9 at iteration 2 ...Time: 17063
+In thread 22 at iteration 2 ...Time: 17279
+In thread 13 at iteration 2 ...Time: 17050
+In thread 2 at iteration 2 ...Time: 17318
+In thread 11 at iteration 2 ...Time: 17442
+In thread 12 at iteration 2 ...Time: 17530
+In thread 4 at iteration 3 ...Time: 12804
+In thread 10 at iteration 3 ...Time: 12170
+In thread 20 at iteration 3 ...Time: 12900
+In thread 17 at iteration 3 ...Time: 12174
+In thread 8 at iteration 3 ...Time: 12278
+In thread 1 at iteration 3 ...Time: 13887
+In thread 15 at iteration 3 ...Time: 13272
+In thread 21 at iteration 3 ...Time: 13192
+In thread 22 at iteration 3 ...Time: 12523
+In thread 5 at iteration 3 ...Time: 13352
+In thread 3 at iteration 3 ...Time: 13890
+In thread 6 at iteration 3 ...Time: 13883
+In thread 7 at iteration 3 ...Time: 13015
+In thread 19 at iteration 3 ...Time: 15291
+In thread 9 at iteration 3 ...Time: 13339
+In thread 23 at iteration 3 ...Time: 14353
+In thread 18 at iteration 3 ...Time: 14057
+In thread 16 at iteration 3 ...Time: 14352
+In thread 14 at iteration 3 ...Time: 14670
+In thread 2 at iteration 3 ...Time: 14035
+In thread 0 at iteration 3 ...Time: 15782
+In thread 12 at iteration 3 ...Time: 14043
+In thread 13 at iteration 3 ...Time: 15448
+In thread 11 at iteration 3 ...Time: 14718

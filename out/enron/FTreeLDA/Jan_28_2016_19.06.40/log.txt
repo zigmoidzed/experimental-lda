@@ -1,0 +1,296 @@
+Running LDA inference using FTreeLDA
+For dataset enron
+For number of iterations 10
+For number of topics 1000
+Using 24 sampler threads and 8 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = enron-0.dat
+Testing file = enron-test.dat
+model dir = out/enron/FTreeLDA/Jan_28_2016_19.06.40/
+n_iters = 10
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 27996
+Initialising data structures
+Initializing the Fenwich trees ...
+Likelihood on held out documents: -8.42791 at time 0
+Sampling 10 iterations!
+In thread 2 at iteration 1 ...Time: 622
+In thread 0 at iteration 1 ...Time: 654
+In thread 10 at iteration 1 ...Time: 653
+In thread 11 at iteration 1 ...Time: 665
+In thread 13 at iteration 1 ...Time: 663
+In thread 15 at iteration 1 ...Time: 678
+In thread 18 at iteration 1 ...Time: 678
+In thread 7 at iteration 1 ...Time: 689
+In thread 17 at iteration 1 ...Time: 687
+In thread 23 at iteration 1 ...Time: 690
+In thread 3 at iteration 1 ...Time: 722
+In thread 16 at iteration 1 ...Time: 718
+In thread 21 at iteration 1 ...Time: 720
+In thread 20 at iteration 1 ...Time: 725
+In thread 14 at iteration 1 ...Time: 727
+In thread 6 at iteration 1 ...Time: 748
+In thread 5 at iteration 1 ...Time: 748
+In thread 4 at iteration 1 ...Time: 766
+In thread 19 at iteration 1 ...Time: 765
+In thread 22 at iteration 1 ...Time: 782
+In thread 9 at iteration 1 ...Time: 790
+In thread 8 at iteration 1 ...Time: 817
+In thread 1 at iteration 1 ...Time: 820
+In thread 12 at iteration 1 ...Time: 835
+In thread 11 at iteration 2 ...Time: 611
+In thread 18 at iteration 2 ...Time: 602
+In thread 10 at iteration 2 ...Time: 656
+In thread 13 at iteration 2 ...Time: 684
+In thread 20 at iteration 2 ...Time: 637
+In thread 22 at iteration 2 ...Time: 590
+In thread 7 at iteration 2 ...Time: 691
+In thread 5 at iteration 2 ...Time: 656
+In thread 23 at iteration 2 ...Time: 710
+In thread 2 at iteration 2 ...Time: 786
+In thread 15 at iteration 2 ...Time: 725
+In thread 3 at iteration 2 ...Time: 687
+In thread 0 at iteration 2 ...Time: 756
+In thread 4 at iteration 2 ...Time: 648
+In thread 6 at iteration 2 ...Time: 676
+In thread 14 at iteration 2 ...Time: 703
+In thread 16 at iteration 2 ...Time: 727
+In thread 17 at iteration 2 ...Time: 776
+In thread 9 at iteration 2 ...Time: 713
+In thread 8 at iteration 2 ...Time: 693
+In thread 21 at iteration 2 ...Time: 798
+In thread 19 at iteration 2 ...Time: 789
+In thread 12 at iteration 2 ...Time: 756
+In thread 1 at iteration 2 ...Time: 818
+In thread 18 at iteration 3 ...Time: 568
+In thread 11 at iteration 3 ...Time: 580
+In thread 10 at iteration 3 ...Time: 621
+In thread 3 at iteration 3 ...Time: 578
+In thread 13 at iteration 3 ...Time: 674
+In thread 17 at iteration 3 ...Time: 581
+In thread 20 at iteration 3 ...Time: 686
+In thread 2 at iteration 3 ...Time: 654
+In thread 7 at iteration 3 ...Time: 693
+In thread 5 at iteration 3 ...Time: 683
+In thread 6 at iteration 3 ...Time: 682
+In thread 22 at iteration 3 ...Time: 738
+In thread 15 at iteration 3 ...Time: 727
+In thread 14 at iteration 3 ...Time: 727
+In thread 0 at iteration 3 ...Time: 777
+In thread 8 at iteration 3 ...Time: 683
+In thread 23 at iteration 3 ...Time: 789
+In thread 21 at iteration 3 ...Time: 696
+In thread 19 at iteration 3 ...Time: 688
+In thread 4 at iteration 3 ...Time: 854
+In thread 9 at iteration 3 ...Time: 764
+In thread 16 at iteration 3 ...Time: 822
+In thread 12 at iteration 3 ...Time: 763
+In thread 1 at iteration 3 ...Time: 773
+Likelihood on held out documents: -8.28995 at time 2243
+In thread 11 at iteration 4 ...Time: 686
+In thread 18 at iteration 4 ...Time: 701
+In thread 10 at iteration 4 ...Time: 642
+In thread 2 at iteration 4 ...Time: 646
+In thread 17 at iteration 4 ...Time: 663
+In thread 7 at iteration 4 ...Time: 644
+In thread 15 at iteration 4 ...Time: 586
+In thread 6 at iteration 4 ...Time: 619
+In thread 13 at iteration 4 ...Time: 700
+In thread 3 at iteration 4 ...Time: 746
+In thread 22 at iteration 4 ...Time: 632
+In thread 14 at iteration 4 ...Time: 628
+In thread 5 at iteration 4 ...Time: 717
+In thread 20 at iteration 4 ...Time: 754
+In thread 23 at iteration 4 ...Time: 643
+In thread 9 at iteration 4 ...Time: 652
+In thread 16 at iteration 4 ...Time: 673
+In thread 8 at iteration 4 ...Time: 780
+In thread 0 at iteration 4 ...Time: 790
+In thread 21 at iteration 4 ...Time: 757
+In thread 19 at iteration 4 ...Time: 729
+In thread 4 at iteration 4 ...Time: 727
+In thread 12 at iteration 4 ...Time: 699
+In thread 1 at iteration 4 ...Time: 703
+In thread 11 at iteration 5 ...Time: 630
+In thread 18 at iteration 5 ...Time: 639
+In thread 10 at iteration 5 ...Time: 713
+In thread 6 at iteration 5 ...Time: 594
+In thread 3 at iteration 5 ...Time: 588
+In thread 2 at iteration 5 ...Time: 629
+In thread 13 at iteration 5 ...Time: 615
+In thread 7 at iteration 5 ...Time: 667
+In thread 17 at iteration 5 ...Time: 680
+In thread 15 at iteration 5 ...Time: 675
+In thread 14 at iteration 5 ...Time: 637
+In thread 23 at iteration 5 ...Time: 606
+In thread 22 at iteration 5 ...Time: 696
+In thread 5 at iteration 5 ...Time: 642
+In thread 20 at iteration 5 ...Time: 659
+In thread 16 at iteration 5 ...Time: 632
+In thread 0 at iteration 5 ...Time: 616
+In thread 9 at iteration 5 ...Time: 689
+In thread 19 at iteration 5 ...Time: 635
+In thread 8 at iteration 5 ...Time: 694
+In thread 21 at iteration 5 ...Time: 715
+In thread 4 at iteration 5 ...Time: 712
+In thread 18 at iteration 6 ...Time: 519
+In thread 12 at iteration 5 ...Time: 672
+In thread 11 at iteration 6 ...Time: 606
+In thread 1 at iteration 5 ...Time: 733
+In thread 10 at iteration 6 ...Time: 596
+In thread 13 at iteration 6 ...Time: 551
+In thread 3 at iteration 6 ...Time: 578
+In thread 2 at iteration 6 ...Time: 587
+In thread 15 at iteration 6 ...Time: 551
+In thread 14 at iteration 6 ...Time: 527
+In thread 6 at iteration 6 ...Time: 636
+In thread 22 at iteration 6 ...Time: 545
+In thread 17 at iteration 6 ...Time: 607
+In thread 7 at iteration 6 ...Time: 619
+In thread 23 at iteration 6 ...Time: 593
+In thread 20 at iteration 6 ...Time: 607
+In thread 5 at iteration 6 ...Time: 628
+In thread 19 at iteration 6 ...Time: 559
+In thread 18 at iteration 7 ...Time: 464
+In thread 0 at iteration 6 ...Time: 613
+In thread 16 at iteration 6 ...Time: 651
+In thread 9 at iteration 6 ...Time: 641
+In thread 11 at iteration 7 ...Time: 474
+In thread 4 at iteration 6 ...Time: 553
+In thread 8 at iteration 6 ...Time: 622
+In thread 21 at iteration 6 ...Time: 639
+In thread 3 at iteration 7 ...Time: 453
+In thread 12 at iteration 6 ...Time: 627
+In thread 2 at iteration 7 ...Time: 466
+In thread 13 at iteration 7 ...Time: 529
+In thread 1 at iteration 6 ...Time: 595
+In thread 17 at iteration 7 ...Time: 445
+In thread 15 at iteration 7 ...Time: 516
+In thread 6 at iteration 7 ...Time: 526
+In thread 14 at iteration 7 ...Time: 555
+In thread 22 at iteration 7 ...Time: 526
+In thread 10 at iteration 7 ...Time: 675
+In thread 20 at iteration 7 ...Time: 512
+In thread 23 at iteration 7 ...Time: 584
+In thread 7 at iteration 7 ...Time: 647
+In thread 5 at iteration 7 ...Time: 588
+In thread 18 at iteration 8 ...Time: 496
+In thread 19 at iteration 7 ...Time: 513
+Likelihood on held out documents: -7.95928 at time 4457
+In thread 9 at iteration 7 ...Time: 462
+In thread 0 at iteration 7 ...Time: 559
+In thread 11 at iteration 8 ...Time: 531
+In thread 16 at iteration 7 ...Time: 594
+In thread 2 at iteration 8 ...Time: 442
+In thread 21 at iteration 7 ...Time: 503
+In thread 8 at iteration 7 ...Time: 549
+In thread 4 at iteration 7 ...Time: 603
+In thread 3 at iteration 8 ...Time: 534
+In thread 14 at iteration 8 ...Time: 438
+In thread 12 at iteration 7 ...Time: 595
+In thread 17 at iteration 8 ...Time: 516
+In thread 1 at iteration 7 ...Time: 565
+In thread 15 at iteration 8 ...Time: 546
+In thread 6 at iteration 8 ...Time: 532
+In thread 13 at iteration 8 ...Time: 607
+In thread 10 at iteration 8 ...Time: 488
+In thread 7 at iteration 8 ...Time: 427
+In thread 22 at iteration 8 ...Time: 599
+In thread 5 at iteration 8 ...Time: 464
+In thread 18 at iteration 9 ...Time: 463
+In thread 23 at iteration 8 ...Time: 529
+In thread 19 at iteration 8 ...Time: 481
+In thread 20 at iteration 8 ...Time: 597
+In thread 9 at iteration 8 ...Time: 584
+In thread 11 at iteration 9 ...Time: 532
+In thread 0 at iteration 8 ...Time: 558
+In thread 2 at iteration 9 ...Time: 531
+In thread 14 at iteration 9 ...Time: 426
+In thread 3 at iteration 9 ...Time: 489
+In thread 21 at iteration 8 ...Time: 561
+In thread 16 at iteration 8 ...Time: 595
+In thread 8 at iteration 8 ...Time: 608
+In thread 6 at iteration 9 ...Time: 444
+In thread 12 at iteration 8 ...Time: 511
+In thread 17 at iteration 9 ...Time: 510
+In thread 15 at iteration 9 ...Time: 476
+In thread 4 at iteration 8 ...Time: 657
+In thread 7 at iteration 9 ...Time: 479
+In thread 13 at iteration 9 ...Time: 536
+In thread 23 at iteration 9 ...Time: 453
+In thread 5 at iteration 9 ...Time: 484
+In thread 18 at iteration 10 ...Time: 482
+Returning from 18
+In thread 22 at iteration 9 ...Time: 510
+In thread 10 at iteration 9 ...Time: 605
+In thread 1 at iteration 8 ...Time: 664
+In thread 19 at iteration 9 ...Time: 505
+In thread 20 at iteration 9 ...Time: 495
+In thread 9 at iteration 9 ...Time: 439
+In thread 11 at iteration 10 ...Time: 426
+Returning from 11
+In thread 2 at iteration 10 ...Time: 410
+Returning from 2
+In thread 3 at iteration 10 ...Time: 398
+Returning from 3
+In thread 15 at iteration 10 ...Time: 363
+Returning from 15
+In thread 0 at iteration 9 ...Time: 531
+In thread 17 at iteration 10 ...Time: 401
+Returning from 17
+In thread 14 at iteration 10 ...Time: 506
+Returning from 14
+In thread 8 at iteration 9 ...Time: 439
+In thread 13 at iteration 10 ...Time: 324
+Returning from 13
+In thread 12 at iteration 9 ...Time: 430
+In thread 21 at iteration 9 ...Time: 511
+In thread 16 at iteration 9 ...Time: 491
+In thread 6 at iteration 10 ...Time: 453
+Returning from 6
+In thread 7 at iteration 10 ...Time: 418
+Returning from 7
+In thread 19 at iteration 10 ...Time: 312
+Returning from 19
+In thread 4 at iteration 9 ...Time: 490
+In thread 22 at iteration 10 ...Time: 385
+Returning from 22
+In thread 23 at iteration 10 ...Time: 417
+Returning from 23
+In thread 5 at iteration 10 ...Time: 437
+Returning from 5
+In thread 1 at iteration 9 ...Time: 385
+In thread 10 at iteration 10 ...Time: 406
+Returning from 10
+In thread 20 at iteration 10 ...Time: 415
+Returning from 20
+In thread 8 at iteration 10 ...Time: 216
+Returning from 8
+In thread 9 at iteration 10 ...Time: 367
+Returning from 9
+In thread 21 at iteration 10 ...Time: 215
+Returning from 21
+In thread 12 at iteration 10 ...Time: 246
+Returning from 12
+In thread 16 at iteration 10 ...Time: 245
+Returning from 16
+In thread 0 at iteration 10 ...Time: 305
+Returning from 0
+0In thread 4 at iteration 10 ...Time: 148
+Returning from 4
+In thread 1 at iteration 10 ...Time: 177
+Returning from 1
+00000000000000000000000Raise flag 00
+Raise flag 10
+Raise flag 20
+Raise flag 30
+Raise flag 40
+Raise flag 50
+Raise flag 60
+Raise flag 70
+Likelihood on held out documents: -7.67217 at time 6569

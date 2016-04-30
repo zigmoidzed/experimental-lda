@@ -1,0 +1,196 @@
+Running LDA inference using FTreeLDA
+For dataset nytimes
+For number of iterations 200
+For number of topics 1000
+Using 50 sampler threads and 4 updater threads on bros
+Running LDA inference using FTreeLDA
+Now randomly initialising model variables for training
+We will perform no testing.
+data dir = data/
+Training file = nytimes-0.dat
+model dir = out/nytimes/FTreeLDA/Jan_27_2016_20.25.11/
+n_iters = 200
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the Fenwich trees ...
+Sampling 200 iterations!
+In thread 27 at iteration 1 ...Time: 30759
+In thread 42 at iteration 1 ...Time: 30967
+In thread 39 at iteration 1 ...Time: 31051
+In thread 30 at iteration 1 ...Time: 31093
+In thread 29 at iteration 1 ...Time: 31096
+In thread 38 at iteration 1 ...Time: 31082
+In thread 19 at iteration 1 ...Time: 31151
+In thread 37 at iteration 1 ...Time: 31128
+In thread 11 at iteration 1 ...Time: 31203
+In thread 15 at iteration 1 ...Time: 31217
+In thread 40 at iteration 1 ...Time: 31192
+In thread 13 at iteration 1 ...Time: 31266
+In thread 34 at iteration 1 ...Time: 31237
+In thread 24 at iteration 1 ...Time: 31273
+In thread 25 at iteration 1 ...Time: 31280
+In thread 9 at iteration 1 ...Time: 31289
+In thread 4 at iteration 1 ...Time: 31299
+In thread 10 at iteration 1 ...Time: 31301
+In thread 17 at iteration 1 ...Time: 31307
+In thread 3 at iteration 1 ...Time: 31314
+In thread 22 at iteration 1 ...Time: 31329
+In thread 48 at iteration 1 ...Time: 31292
+In thread 43 at iteration 1 ...Time: 31293
+In thread 35 at iteration 1 ...Time: 31337
+In thread 46 at iteration 1 ...Time: 31339
+In thread 36 at iteration 1 ...Time: 31362
+In thread 1 at iteration 1 ...Time: 31412
+In thread 2 at iteration 1 ...Time: 31433
+In thread 14 at iteration 1 ...Time: 31431
+In thread 23 at iteration 1 ...Time: 31430
+In thread 26 at iteration 1 ...Time: 31443
+In thread 0 at iteration 1 ...Time: 31464
+In thread 5 at iteration 1 ...Time: 31494
+In thread 18 at iteration 1 ...Time: 31506
+In thread 41 at iteration 1 ...Time: 31476
+In thread 33 at iteration 1 ...Time: 31496
+In thread 45 at iteration 1 ...Time: 31497
+In thread 12 at iteration 1 ...Time: 31582
+In thread 32 at iteration 1 ...Time: 31553
+In thread 21 at iteration 1 ...Time: 31595
+In thread 20 at iteration 1 ...Time: 31607
+In thread 8 at iteration 1 ...Time: 31659
+In thread 28 at iteration 1 ...Time: 31653
+In thread 44 at iteration 1 ...Time: 31616
+In thread 7 at iteration 1 ...Time: 31679
+In thread 31 at iteration 1 ...Time: 31679
+In thread 16 at iteration 1 ...Time: 31781
+In thread 49 at iteration 1 ...Time: 31731
+In thread 6 at iteration 1 ...Time: 31830
+In thread 47 at iteration 1 ...Time: 32052
+In thread 27 at iteration 2 ...Time: 29382
+In thread 42 at iteration 2 ...Time: 29473
+In thread 30 at iteration 2 ...Time: 29653
+In thread 19 at iteration 2 ...Time: 29614
+In thread 39 at iteration 2 ...Time: 29715
+In thread 29 at iteration 2 ...Time: 29730
+In thread 38 at iteration 2 ...Time: 29711
+In thread 11 at iteration 2 ...Time: 29692
+In thread 37 at iteration 2 ...Time: 29765
+In thread 40 at iteration 2 ...Time: 29703
+In thread 34 at iteration 2 ...Time: 29721
+In thread 24 at iteration 2 ...Time: 29782
+In thread 13 at iteration 2 ...Time: 29797
+In thread 15 at iteration 2 ...Time: 29847
+In thread 48 at iteration 2 ...Time: 29745
+In thread 10 at iteration 2 ...Time: 29790
+In thread 25 at iteration 2 ...Time: 29812
+In thread 4 at iteration 2 ...Time: 29818
+In thread 22 at iteration 2 ...Time: 29783
+In thread 9 at iteration 2 ...Time: 29827
+In thread 17 at iteration 2 ...Time: 29865
+In thread 43 at iteration 2 ...Time: 29857
+In thread 35 at iteration 2 ...Time: 29827
+In thread 3 at iteration 2 ...Time: 29903
+In thread 46 at iteration 2 ...Time: 29831
+In thread 36 at iteration 2 ...Time: 29835
+In thread 1 at iteration 2 ...Time: 29915
+In thread 2 at iteration 2 ...Time: 29934
+In thread 26 at iteration 2 ...Time: 30001
+In thread 23 at iteration 2 ...Time: 30017
+In thread 14 at iteration 2 ...Time: 30028
+In thread 41 at iteration 2 ...Time: 29962
+In thread 0 at iteration 2 ...Time: 30048
+In thread 18 at iteration 2 ...Time: 30014
+In thread 45 at iteration 2 ...Time: 30031
+In thread 12 at iteration 2 ...Time: 30025
+In thread 33 at iteration 2 ...Time: 30078
+In thread 5 at iteration 2 ...Time: 30120
+In thread 32 at iteration 2 ...Time: 30079
+In thread 21 at iteration 2 ...Time: 30156
+In thread 20 at iteration 2 ...Time: 30164
+In thread 28 at iteration 2 ...Time: 30162
+In thread 7 at iteration 2 ...Time: 30163
+In thread 31 at iteration 2 ...Time: 30135
+In thread 44 at iteration 2 ...Time: 30234
+In thread 8 at iteration 2 ...Time: 30254
+In thread 49 at iteration 2 ...Time: 30183
+In thread 16 at iteration 2 ...Time: 30281
+In thread 6 at iteration 2 ...Time: 30256
+In thread 47 at iteration 2 ...Time: 30640
+In thread 27 at iteration 3 ...Time: 27711
+In thread 42 at iteration 3 ...Time: 27925
+In thread 39 at iteration 3 ...Time: 27969
+In thread 30 at iteration 3 ...Time: 28026
+In thread 19 at iteration 3 ...Time: 28056
+In thread 38 at iteration 3 ...Time: 28066
+In thread 29 at iteration 3 ...Time: 28100
+In thread 11 at iteration 3 ...Time: 28118
+In thread 40 at iteration 3 ...Time: 28100
+In thread 37 at iteration 3 ...Time: 28118
+In thread 34 at iteration 3 ...Time: 28086
+In thread 13 at iteration 3 ...Time: 28120
+In thread 15 at iteration 3 ...Time: 28199
+In thread 9 at iteration 3 ...Time: 28167
+In thread 10 at iteration 3 ...Time: 28193
+In thread 22 at iteration 3 ...Time: 28205
+In thread 46 at iteration 3 ...Time: 28131
+In thread 25 at iteration 3 ...Time: 28263
+In thread 24 at iteration 3 ...Time: 28313
+In thread 48 at iteration 3 ...Time: 28289
+In thread 4 at iteration 3 ...Time: 28266
+In thread 17 at iteration 3 ...Time: 28256
+In thread 43 at iteration 3 ...Time: 28253
+In thread 3 at iteration 3 ...Time: 28282
+In thread 35 at iteration 3 ...Time: 28305
+In thread 36 at iteration 3 ...Time: 28324
+In thread 1 at iteration 3 ...Time: 28251
+In thread 2 at iteration 3 ...Time: 28342
+In thread 26 at iteration 3 ...Time: 28297
+In thread 23 at iteration 3 ...Time: 28342
+In thread 14 at iteration 3 ...Time: 28347
+In thread 41 at iteration 3 ...Time: 28425
+In thread 18 at iteration 3 ...Time: 28421
+In thread 0 at iteration 3 ...Time: 28480
+In thread 5 at iteration 3 ...Time: 28459
+In thread 32 at iteration 3 ...Time: 28432
+In thread 33 at iteration 3 ...Time: 28493
+In thread 45 at iteration 3 ...Time: 28563
+In thread 12 at iteration 3 ...Time: 28583
+In thread 21 at iteration 3 ...Time: 28455
+In thread 28 at iteration 3 ...Time: 28475
+In thread 31 at iteration 3 ...Time: 28535
+In thread 20 at iteration 3 ...Time: 28615
+In thread 44 at iteration 3 ...Time: 28533
+In thread 8 at iteration 3 ...Time: 28534
+In thread 7 at iteration 3 ...Time: 28665
+In thread 49 at iteration 3 ...Time: 28612
+In thread 16 at iteration 3 ...Time: 28708
+In thread 6 at iteration 3 ...Time: 28756
+In thread 47 at iteration 3 ...Time: 28988
+In thread 27 at iteration 4 ...Time: 28261
+In thread 42 at iteration 4 ...Time: 28396
+In thread 39 at iteration 4 ...Time: 28626
+In thread 30 at iteration 4 ...Time: 28635
+In thread 19 at iteration 4 ...Time: 28698
+In thread 38 at iteration 4 ...Time: 28631
+In thread 29 at iteration 4 ...Time: 28681
+In thread 37 at iteration 4 ...Time: 28657
+In thread 11 at iteration 4 ...Time: 28712
+In thread 40 at iteration 4 ...Time: 28698
+In thread 34 at iteration 4 ...Time: 28734
+In thread 13 at iteration 4 ...Time: 28855
+In thread 15 at iteration 4 ...Time: 28791
+In thread 24 at iteration 4 ...Time: 28740
+In thread 9 at iteration 4 ...Time: 28848
+In thread 22 at iteration 4 ...Time: 28823
+In thread 48 at iteration 4 ...Time: 28772
+In thread 10 at iteration 4 ...Time: 28893
+In thread 4 at iteration 4 ...Time: 28817
+In thread 25 at iteration 4 ...Time: 28845
+In thread 43 at iteration 4 ...Time: 28836
+In thread 17 at iteration 4 ...Time: 28913
+In thread 46 at iteration 4 ...Time: 29001
+In thread 36 at iteration 4 ...Time: 28788
+In thread 35 at iteration 4 ...Time: 28866
+In thread 3 at iteration 4 ...Time: 28966
+In thread 1 at iteration 4 ...Time: 28943

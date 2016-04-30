@@ -1,0 +1,69 @@
+Running LDA inference using lightLDA
+For dataset nytimes
+For number of iterations 1000
+For number of topics 1000
+Using 24 sampler threads and 8 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/lightLDA/Jan_28_2016_22.42.18/
+n_iters = 1000
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -8.98906 at time 0
+Sampling 1000 iterations!
+In thread 12 at iteration 1 ...Time: 13785
+In thread 1 at iteration 1 ...Time: 14018
+In thread 14 at iteration 1 ...Time: 14442
+In thread 19 at iteration 1 ...Time: 14456
+In thread 3 at iteration 1 ...Time: 14501
+In thread 2 at iteration 1 ...Time: 14547
+In thread 11 at iteration 1 ...Time: 14553
+In thread 17 at iteration 1 ...Time: 14601
+In thread 9 at iteration 1 ...Time: 14631
+In thread 5 at iteration 1 ...Time: 14650
+In thread 18 at iteration 1 ...Time: 14675
+In thread 4 at iteration 1 ...Time: 14778
+In thread 23 at iteration 1 ...Time: 14760
+In thread 15 at iteration 1 ...Time: 14818
+In thread 6 at iteration 1 ...Time: 14920
+In thread 10 at iteration 1 ...Time: 15065
+In thread 16 at iteration 1 ...Time: 15076
+In thread 20 at iteration 1 ...Time: 15114
+In thread 8 at iteration 1 ...Time: 15171
+In thread 7 at iteration 1 ...Time: 15197
+In thread 22 at iteration 1 ...Time: 15219
+In thread 21 at iteration 1 ...Time: 15389
+In thread 13 at iteration 1 ...Time: 15642
+In thread 0 at iteration 1 ...Time: 16319
+In thread 12 at iteration 2 ...Time: 17061
+In thread 19 at iteration 2 ...Time: 16436
+In thread 3 at iteration 2 ...Time: 16766
+In thread 4 at iteration 2 ...Time: 16676
+In thread 1 at iteration 2 ...Time: 17479
+In thread 11 at iteration 2 ...Time: 16947
+In thread 14 at iteration 2 ...Time: 17153
+In thread 17 at iteration 2 ...Time: 17016
+In thread 15 at iteration 2 ...Time: 16918
+In thread 9 at iteration 2 ...Time: 17186
+In thread 2 at iteration 2 ...Time: 17305
+In thread 18 at iteration 2 ...Time: 17298
+In thread 23 at iteration 2 ...Time: 17208
+In thread 5 at iteration 2 ...Time: 17429
+In thread 6 at iteration 2 ...Time: 17319
+In thread 7 at iteration 2 ...Time: 17101
+In thread 16 at iteration 2 ...Time: 17225
+In thread 22 at iteration 2 ...Time: 17230
+In thread 10 at iteration 2 ...Time: 17519
+In thread 8 at iteration 2 ...Time: 17623
+In thread 20 at iteration 2 ...Time: 17712
+In thread 21 at iteration 2 ...Time: 17639
+In thread 13 at iteration 2 ...Time: 17582
+In thread 0 at iteration 2 ...Time: 17137

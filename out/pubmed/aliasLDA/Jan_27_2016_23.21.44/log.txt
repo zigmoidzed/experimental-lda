@@ -1,0 +1,33 @@
+Running LDA inference using aliasLDA
+For dataset pubmed
+For number of iterations 100
+For number of topics 1000
+Using 25 sampler threads and 4 updater threads on bros
+Running LDA inference using aliasLDA
+Fail to read training data!
+Command line usage:
+	./LDA --method xxx --testing-mode yyy [--num-sampling-threads <int>] [--num-table-threads <int>] [--alpha <real+>] [--beta <real+>] [--num-topics <int>] [--num-iterations <int>] [-odir <string>] [-savestep <int>] [-twords <int>] --training-file <string> [--testing-file <string>]
+--method xxx :
+  xxx can be{ simpleLDA, sparseLDA, aliasLDA, FTreeLDA, forestLDA, lightLDA } corresponding to the six methods described above.
+--testing - mode yyy :
+  yyy can be{ nt, net } corresponding to the two modes described in readme.
+--num-sampling-threads <int> :
+  The number of sampling threads. The default value is 4.
+--alpha <real+> :
+  The value of alpha, hyper-parameter of LDA. The default value of alpha is 50 / num-topics.
+--beta <real+> :
+  The value of beta, hyper-parameter of LDA. The default value of beta is 0.1.
+--num-topics <int> :
+  The number of topics.The default value is 100.
+--num-iterations <int> :
+  The number of Gibbs sampling iterations. The default value is 2000.
+--output-model <string> :
+  The location where statistics and trained topics will be stored. The default location is the current working directory.
+--output-state-interval <int> :
+  The step(counted by the number of Gibbs sampling iterations) at which the LDA model is saved to hard disk. The default value is 200.
+--num-top-words <int> :
+  The number of most likely words for each topic. The default value is zero.
+--training-file <string> :
+  The input training data file. Data format described in readme under data folder.
+--testing-file <string> :
+  The input test data file. Data format described in readme under data folder.

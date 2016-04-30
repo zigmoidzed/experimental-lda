@@ -1,0 +1,107 @@
+Running LDA inference using lightLDA
+For dataset nytimes
+For number of iterations 1000
+For number of topics 1000
+Using 16 sampler threads and 4 updater threads on bros
+Running LDA inference using lightLDA
+Now randomly initialising model variables for training
+We will perform a test on a heldout set.
+data dir = data/
+Training file = nytimes-0.dat
+Testing file = nytimes-test.dat
+model dir = out/nytimes/lightLDA/Jan_29_2016_07.28.39/
+n_iters = 1000
+alpha = 0.05
+beta = 0.1
+K = 1000
+V = 101257
+Initialising data structures
+Initializing the alias tables ...
+Likelihood on held out documents: -9.07089 at time 0
+Sampling 1000 iterations!
+In thread 1 at iteration 1 ...Time: 8321
+In thread 9 at iteration 1 ...Time: 8432
+In thread 10 at iteration 1 ...Time: 8753
+In thread 4 at iteration 1 ...Time: 8776
+In thread 8 at iteration 1 ...Time: 8823
+In thread 2 at iteration 1 ...Time: 9570
+In thread 15 at iteration 1 ...Time: 10009
+In thread 12 at iteration 1 ...Time: 10117
+In thread 3 at iteration 1 ...Time: 12195
+In thread 11 at iteration 1 ...Time: 12282
+In thread 7 at iteration 1 ...Time: 12424
+In thread 0 at iteration 1 ...Time: 12627
+In thread 13 at iteration 1 ...Time: 12662
+00000In thread 5 at iteration 1 ...Time: 12781
+In thread 14 at iteration 1 ...Time: 12783
+0In thread 6 at iteration 1 ...Time: 12878
+0000000000In thread 1 at iteration 1 ...Time: 8408
+In thread 5 at iteration 1 ...Time: 8453
+In thread 0 at iteration 1 ...Time: 8940
+In thread 9 at iteration 1 ...Time: 9056
+00In thread 3 at iteration 1 ...Time: 9127
+In thread 7 at iteration 1 ...Time: 9532
+In thread 14 at iteration 1 ...Time: 10293
+In thread 11 at iteration 1 ...Time: 10548
+Likelihood on held out documents: -9.02476 at time 21674
+In thread 12 at iteration 1 ...Time: 11679
+In thread 15 at iteration 1 ...Time: 11698
+In thread 2 at iteration 1 ...Time: 11799
+In thread 8 at iteration 1 ...Time: 11922
+00In thread 10 at iteration 1 ...Time: 11995
+In thread 6 at iteration 1 ...Time: 12093
+In thread 13 at iteration 1 ...Time: 12094
+In thread 4 at iteration 1 ...Time: 12193
+000000000000In thread 1 at iteration 1 ...Time: 8358
+In thread 5 at iteration 1 ...Time: 8400
+In thread 3 at iteration 1 ...Time: 8401
+In thread 7 at iteration 1 ...Time: 8454
+In thread 9 at iteration 1 ...Time: 8568
+In thread 0 at iteration 1 ...Time: 9287
+00In thread 13 at iteration 1 ...Time: 10293
+In thread 11 at iteration 1 ...Time: 10296
+In thread 2 at iteration 1 ...Time: 11241
+00In thread 8 at iteration 1 ...Time: 11528
+In thread 15 at iteration 1 ...Time: 11570
+In thread 4 at iteration 1 ...Time: 11748
+00In thread 12 at iteration 1 ...Time: 12015
+In thread 10 at iteration 1 ...Time: 12065
+In thread 6 at iteration 1 ...Time: 12092
+00000000In thread 14 at iteration 1 ...Time: 12304
+00In thread 9 at iteration 1 ...Time: 8198
+In thread 5 at iteration 1 ...Time: 8212
+In thread 11 at iteration 1 ...Time: 8308
+In thread 3 at iteration 1 ...Time: 8530
+In thread 1 at iteration 1 ...Time: 8621
+In thread 7 at iteration 1 ...Time: 8776
+In thread 15 at iteration 1 ...Time: 9611
+Likelihood on held out documents: -9.00107 at time 44913
+In thread 13 at iteration 1 ...Time: 9827
+In thread 2 at iteration 1 ...Time: 10997
+In thread 10 at iteration 1 ...Time: 11056
+In thread 6 at iteration 1 ...Time: 11157
+In thread 0 at iteration 1 ...Time: 11193
+In thread 8 at iteration 1 ...Time: 11194
+0000In thread 4 at iteration 1 ...Time: 11367
+In thread 14 at iteration 1 ...Time: 11433
+In thread 12 at iteration 1 ...Time: 11434
+000000000000In thread 9 at iteration 1 ...Time: 5947
+In thread 5 at iteration 1 ...Time: 5963
+In thread 15 at iteration 1 ...Time: 6044
+In thread 12 at iteration 1 ...Time: 6450
+In thread 3 at iteration 1 ...Time: 7062
+In thread 7 at iteration 1 ...Time: 7404
+In thread 13 at iteration 1 ...Time: 8335
+In thread 11 at iteration 1 ...Time: 10281
+In thread 10 at iteration 1 ...Time: 10491
+In thread 14 at iteration 1 ...Time: 10835
+In thread 4 at iteration 1 ...Time: 10908
+In thread 0 at iteration 1 ...Time: 10983
+0In thread 1 at iteration 1 ...Time: 11136
+0In thread 6 at iteration 1 ...Time: 11358
+In thread 2 at iteration 1 ...Time: 11509
+000000In thread 8 at iteration 1 ...Time: 11649
+00000000Likelihood on held out documents: -8.96896 at time 65946
+Likelihood on held out documents: -8.95086 at time 81006
+Likelihood on held out documents: -8.93592 at time 96065
+Likelihood on held out documents: -8.92248 at time 111121
